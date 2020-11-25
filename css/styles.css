@@ -2,6 +2,7 @@
 
 html {
 	font-family: 'Roboto', sans-serif;
+
 }
 
 @media (min-width: 576px) {
@@ -68,4 +69,55 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+/* Personal additions */
+
+::-webkit-scrollbar {
+	width: 10px;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: lightgray;
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: gray;
+	border-radius: 3px;
+}
+
+h2.navTitle {
+	margin-bottom: 30px;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+	padding: 0 30px;
+}
+
+.navLinks{
+	display: flex;
+	justify-content: center;
+}
+
+figure {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+figure:hover {
+	box-shadow: 5px 5px 5px grey;
 }
